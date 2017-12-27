@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="appios1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="city-1284260_1280" translatesAutoresizingMaskIntoConstraints="NO" id="qAZ-Bv-8Qv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sp-Code" translatesAutoresizingMaskIntoConstraints="NO" id="Dez-IM-zq9">
+                                <rect key="frame" x="0.0" y="20" width="375" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="FjQ-W7-H96"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0p-KR-O9p">
+                                <rect key="frame" x="151.5" y="561" width="72" height="30"/>
+                                <state key="normal" title="Pulsame !!"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qAZ-Bv-8Qv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1hY-bu-51i"/>
+                            <constraint firstItem="qAZ-Bv-8Qv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8i0-9c-fmg"/>
+                            <constraint firstItem="Dez-IM-zq9" firstAttribute="leading" secondItem="qAZ-Bv-8Qv" secondAttribute="leading" id="ONd-lK-DS5"/>
+                            <constraint firstAttribute="trailing" secondItem="qAZ-Bv-8Qv" secondAttribute="trailing" id="QGz-8j-Ahv"/>
+                            <constraint firstItem="s0p-KR-O9p" firstAttribute="centerX" secondItem="Dez-IM-zq9" secondAttribute="centerX" id="SrI-Vu-6zJ"/>
+                            <constraint firstItem="Dez-IM-zq9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TfS-Qu-PK4"/>
+                            <constraint firstItem="qAZ-Bv-8Qv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="brD-t9-J89"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="s0p-KR-O9p" secondAttribute="bottom" constant="76" id="dfT-0J-BQJ"/>
+                            <constraint firstItem="Dez-IM-zq9" firstAttribute="trailing" secondItem="qAZ-Bv-8Qv" secondAttribute="trailing" id="pbs-WR-icb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-265" y="-31"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Sp-Code" width="130" height="43"/>
+        <image name="city-1284260_1280" width="426" height="284"/>
+    </resources>
+</document>
