@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.imgFondo.isHidden=true
+        //self.imgFondo.isHidden=true
         
     }
 
@@ -33,6 +33,10 @@ class ViewController: UIViewController {
     @IBAction func btnPulsamePress(_ sender: UIButton) {
         self.imgFondo.isHidden=false
         print("Evento del boton");
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
     }
     
 

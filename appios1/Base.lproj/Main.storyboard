@@ -32,6 +32,7 @@
                                 <state key="normal" title="Pulsame !!"/>
                                 <connections>
                                     <action selector="btnPulsamePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KKh-zx-VyV"/>
+                                    <segue destination="5G8-tR-G1x" kind="show" id="O3B-nm-Lzo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -58,6 +59,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-265" y="-31"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="OaB-Mc-Gkm">
+            <objects>
+                <viewController id="5G8-tR-G1x" customClass="InfoViewController" customModule="appios1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xtJ-VZ-Xp6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZO3-bu-PEY">
+                                <rect key="frame" x="187" y="291" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8d0-fi-nJN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AWq-zB-pXY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534" y="14"/>
         </scene>
     </scenes>
     <resources>
